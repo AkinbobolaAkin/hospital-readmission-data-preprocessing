@@ -7,7 +7,10 @@ authors = [
     { name = "AkinbobolaAkin", email = "akinbobola71@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.6.4",
+]
 
 [project.scripts]
 hospital-readmission-data-preprocessing = "hospital_readmission_data_preprocessing:main"
