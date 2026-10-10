@@ -1,0 +1,17 @@
+[project]
+name = "hospital-readmission-data-preprocessing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AkinbobolaAkin", email = "akinbobola71@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+hospital-readmission-data-preprocessing = "hospital_readmission_data_preprocessing:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
